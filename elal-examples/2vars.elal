@@ -1,0 +1,16 @@
+31 A1 00 11 E0 FD 00 11 E1 FD 00 E0 6C 6F 6C 2E 74 78 74 01 E1 68 65 6C 6C 6F 3F 3F 01 FF
+
+### This is an example in plaintext, if you want runnable examples check ../raw-elal ###
+
+### Explanation:
+31A1: Header
+00: Separator
+11 E0 FD: Print E0 and tell print E0 is a variable and not an ASCII char using FD
+00: Separator
+11 E1 FD: Print E1 and tell print E1 is a variable and not an ASCII char using FD
+00: Separator
+E0 6C 6F 6C 2E 74 78 74: Define E0, in this case ASCII for "lol.txt"
+01: Tell print that this variable should be displayed without a trailing newline
+E1 68 65 6C 6C 6F 3F 3F: Define E1, in this case ASCII for "hello??"
+01: Tell print that this variable should be displayed without a trailing newline
+FF: EOF
