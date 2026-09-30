@@ -1,0 +1,11 @@
+31 A1 00 11 48 65 6C 6C 6F 20 57 6F 72 6C 64 00 FF
+
+### This is an example in plaintext, if you want runnable examples check ../raw-elal ###
+
+### Explanation:
+31A1: Header
+00: Separator
+11: Print the following...
+48 65 6C 6C 6F 20 57 6F 72 6C 64: Hex for "Hello World"
+00: Separator
+FF: EOF
