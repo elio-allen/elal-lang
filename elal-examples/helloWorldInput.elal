@@ -1,0 +1,12 @@
+31 A1 00 12 E0 00 11 E0 FD 00 FF
+
+### This is an example in plaintext, if you want runnable examples check ../raw-elal ###
+
+### Explanation:
+31A1: Header
+00: Separator
+12 E0: Take user input and put it in E0
+00: Separator
+11 E0 FD: Print E0 and tell print E0 is a variable and not an ASCII char using FD
+00: Separator
+FF: EOF
