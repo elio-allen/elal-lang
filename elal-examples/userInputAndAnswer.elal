@@ -1,0 +1,18 @@
+31 A1 00 11 48 69 2C 20 77 68 61 74 27 73 20 79 6F 75 72 20 6E 61 6D 65 3F 20 3A 20 00 12 E0 00 11 48 69 20 01 11 E0 FD 01 11 2C 20 49 27 6D 20 45 4C 41 4C 21 00 FF
+
+### This is an example in plaintext, if you want runnable examples check ../raw-elal ###
+
+### Explanation:
+31A1: Header
+00: Separator
+11 48 69 2C 20 77 68 61 74 27 73 20 79 6F 75 72 20 6E 61 6D 65 3F 20 3A 20: Print 48 69 2C 20 77 68 61 74 27 73 20 79 6F 75 72 20 6E 61 6D 65 3F 20 3A 20 which is "Hi, what's your name? :" in ASCII
+00: Separator
+12 E0: Take user input and put it in E0
+00: Separator
+11 48 69 20: Print ASCII for "Hi "
+01: Tell print that this value should be displayed without a trailing newline
+11 E0 FD: Print E0 (the value previously given by the user)
+01: Tell print that this value should be displayed without a trailing newline
+11 2C 20 49 27 6D 20 45 4C 41 4C 21: Print ASCII for ", I'm ELAL!"
+00: Separator
+FF: EOF
