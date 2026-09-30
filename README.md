@@ -2,7 +2,7 @@
 This is a programming language I made which is really basic using hex. I've made an interpreter using python :P. If you want to modify or make your own elal scripts, you need a hex editor. I use HxD as it's simple. You'll find how to code lower.
 
 ## Running
-Linux: `python3 run_elal.py <elal file>`  
+Linux & Mac: `python3 run_elal.py <elal file>`  
 Windows: `python.exe .\run_elal.py <elal file>`  
 
 ## ElAl code
